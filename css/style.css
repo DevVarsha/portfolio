@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster&display=swap');
+.row {
+margin: 0!important;
+}
+.list li{
+padding: 6px;
+font-size: 18px;
+}
+.banner {
+background-image: url("../assets/images/banner2.jpg"); 
+background-repeat: no-repeat;
+background-size: cover;
+}
+.inner-banner {
+background-color: #0000009e;
+}
+.banner-text h1{
+font-family: 'EB Garamond', serif;
+}
+.banner-p {
+font-size: 18px;
+line-height: 35px;
+color: #b5b2b2;
+letter-spacing: 2px;
+}
+.btn1 {
+border: 1px solid white;
+border-radius: none;
+width: 170px;
+margin:10px;
+}
+.btn2 {
+background-color: #bd9834;
+border: 1px solid #bd9834;
+border-radius: inherit;
+}
+
+.bgimg {
+background-image: url("../assets/images/bucket2.jpg");
+background-size: cover;
+padding: 325px 0;
+}
+.hr1 {
+background-color: #bd9834;
+width: 60px;
+height: 2px;
+}
+.text-p {
+color: #aba7a7;
+font-size: 19px;
+line-height: 40px;
+font-weight: 600;
+}
+.bg-grey {
+background-color: #f3f1f1b5;
+}
+.inner-grid , .testimonial-blog {
+width: 80%;
+margin: 0 auto;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+padding: 205px 0;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.img1 {
+background-image: url("../assets/images/img1.jpg");
+}
+.img2{
+background-image: url("../assets/images/img2.jpg");
+}
+.img3 {
+background-image: url("../assets/images/img3.jpg");
+}
+.img4 {
+background-image: url("../assets/images/img4.jpg");
+}
+.img5 {
+background-image: url("../assets/images/img5.jpg");
+}
+.img6 {
+background-image: url("../assets/images/pomogranate.jpg");
+}
+.dollar, .star {
+color: #bd9834;
+}
+.grid-h1 {
+font-family: 'EB Garamond', serif;
+}
+.star {
+font-size: 28px;
+letter-spacing: 15px;
+}
+.bg-black {
+background-color: #3e3c3c;
+width: 80%;
+margin: 0 auto;
+height: 800px;
+margin-top: 20px;
+}
+.hr2 {
+background-color: #bd9834;
+height: 2px;
+width: 80%;
+}
+
+input[type=text], input[type=email] {
+background-color: #111010;
+color: white;
+border: #111010;
+}
+input[type=text]:focus, input[type=email]:focus {
+background-color: #111010;
+outline: none;
+}
+.bg-footer{
+background-color: black;
+}
+.inner-copy {
+width: 80%;
+margin: 0 auto;
+}
+.foot li {
+display: inline-block;
+list-style: none;
+
+}
+@media screen and (max-width:767px){
+.display-1 {
+font-size: 38px;
+}
+.display-3 {
+font-size: 30px;
+}
+h1 {
+font-size: 25px;
+}
+.inner-copy {
+width: 96%;
+}
+.design, .foot {
+text-align: center;
+}
+}
